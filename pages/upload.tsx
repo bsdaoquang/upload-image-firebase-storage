@@ -76,6 +76,7 @@ const UploadImageToStorage = () => {
                 <List.Item
                   extra={[
                     <Button
+                      key="btnRemoveFile"
                       onClick={handleRemoveFile}
                       type="text"
                       icon={<i className="fas fa-times"></i>}
